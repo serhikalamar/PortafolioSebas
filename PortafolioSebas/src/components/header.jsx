@@ -1,4 +1,14 @@
 import React from "react";
-import {Text} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
+
+export default function header(){
+    return (
+        <view>
+            <Text>Inicio</Text>
+            <Text>Colecciones</Text>
+            <Text>Sobre Mi</Text>
+        </view>
+    );
+}
 

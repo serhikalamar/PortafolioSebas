@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View , Clock} from 'react-native';
 
 
 
@@ -8,6 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Sebastia Pla</Text>
       <StatusBar style="auto" />
+      <Clock />
     </View>
   );
 }
